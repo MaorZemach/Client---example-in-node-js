@@ -5,8 +5,8 @@ async function main() {
     const axios = require('axios');
 
     const time = new Date();
-    var curr_minutes = date.getMinutes();
-    var curr_hours = date.getHours();
+    var curr_minutes = time.getMinutes();
+    var curr_hours = time.getHours();
     let get_res = undefined;
     let post_res = undefined;
     let put_res = undefined;
